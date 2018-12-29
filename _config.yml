@@ -108,6 +108,10 @@ author:
   bio              : "Senior Software Engineer @SoftwareAG. Redifining the B2B Integration by enabling webMethods B2B on Cloud."
   location         : "Bangalore, India"
   email            : "baijnath.ct@gmail.com"
+  uri              : "https://bkum.github.io"
+  twitter          : "beingBkum"
+  linkedin         : "baijnathkumar"
+  github           : "bkum"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
