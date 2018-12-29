@@ -107,33 +107,36 @@ author:
   avatar           : "https://avatars0.githubusercontent.com/u/45381657?s=460&v=4"
   bio              : "Senior Software Engineer @SoftwareAG. Redifining the B2B Integration by enabling webMethods B2B on Cloud."
   location         : "Bangalore, India"
-  email            :
+  email            : "baijnath.ct@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:baijnath.ct@gmail.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://bkum.github.io"
+      # url: "https://bkum.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-       url: "https://twitter.com/beingBkum"
+      # url: "https://twitter.com/beingBkum"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/bkum"
+      # url: "https://github.com/bkum"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Linkedin"
        icon: "fab fa-fw fa-linkedin-square"
-       url: "https://www.linkedin.com/in/baijnathkumar/"
+      # url: "https://www.linkedin.com/in/baijnathkumar/"
 
 # Site Footer
 footer:
   links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+       url: "https://bkum.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
        url: "https://twitter.com/beingBkum"
@@ -152,6 +155,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
+    - label: "Linkedin"
+       icon: "fab fa-fw fa-linkedin-square"
+        url: "https://www.linkedin.com/in/baijnathkumar/"
 
 
 # Reading Files
