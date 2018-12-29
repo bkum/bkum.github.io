@@ -133,16 +133,16 @@ footer:
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-       url: "https://bkum.github.io"
+      # url: "https://bkum.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-       url: "https://twitter.com/beingBkum"
+      # url: "https://twitter.com/beingBkum"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/bkum"
+      # url: "https://github.com/bkum"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
