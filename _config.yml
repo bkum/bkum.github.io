@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "air" # "default" "air", "aqua", "contrast", "dark", 
 
 # Site Settings
 locale                   : "en-US"
-title                    : "beingBkum"
+title                    : "BeingBkum"
 title_separator          : "-"
-name                     : "Baijnath Kumar"
+name                     : "BeingBkum"
 description              : "Senior Software Engineer @SoftwareAG. Redifining the B2B Integration by enabling webMethods B2B on Cloud."
 url                      : "https://bkum.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -259,7 +259,10 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # HTML Compression
 # - http://jch.penibelst.de/

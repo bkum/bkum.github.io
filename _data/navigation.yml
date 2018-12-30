@@ -1,12 +1,13 @@
 # main links
 main:
-  - title: "Blog"
-    url: /blog/
+  - title: "Pages"
+    url: /pages/
   - title: "About"
     url: /about/
   - title: "Contact"
+    url: /contact/
     children:
       - title: "Resume"
-        url: /contact/resume/
+        url: /resume/
       - title: "Portfolio"
-        url: /contact/portfolio/
+        url: /portfolio/
