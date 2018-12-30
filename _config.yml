@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Baijnath Kumar | Personal Website"
+title                    : "beingBkum"
 title_separator          : "-"
 name                     : "Baijnath Kumar"
 description              : "Senior Software Engineer @SoftwareAG. Redifining the B2B Integration by enabling webMethods B2B on Cloud."
@@ -24,7 +24,7 @@ url                      : "https://bkum.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 180
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "utterances", "custom"
@@ -80,7 +80,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "beingBkum"
 facebook:
   username               :
   app_id                 :
@@ -106,7 +106,7 @@ author:
   name             : "Baijnath Kumar"
   avatar           : "https://avatars0.githubusercontent.com/u/45381657?s=460&v=4"
   bio              : "Senior Software Engineer @SoftwareAG. Redifining the B2B Integration by enabling webMethods B2B on Cloud."
-  location         : "Bangalore, India"
+  location         : 
   email            : "baijnath.ct@gmail.com"
   uri              : "https://bkum.github.io"
   twitter          : "beingBkum"
@@ -135,27 +135,12 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://bkum.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/beingBkum"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+      url: "https://twitter.com/beingBkum"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/bkum"
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/bkum"
 
 
 # Reading Files
@@ -297,3 +282,18 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
